@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>E-Commerce Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Featured Products</h2>
+            <div class="product">
+                <img src="product1.jpg" alt="Product 1">
+                <p>Product 1 - $20</p>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="Product 2">
+                <p>Product 2 - $30</p>
+            </div>
+            <div class="product">
+                <img src="product3.jpg" alt="Product 3">
+                <p>Product 3 - $25</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 E-Commerce Store. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- Login Page (login.html) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Login</h2>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
+
+<!-- CSS (styles.css) -->
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.product {
+    display: inline-block;
+    margin: 20px;
+}
+.product img {
+    width: 150px;
+    height: 150px;
+    display: block;
+}
+.
+<!-- JavaScript (script.js) -->
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("JavaScript Loaded!");
+});
